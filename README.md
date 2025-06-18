@@ -6,11 +6,11 @@ A full-stack voice-enabled AI medical assistant that conducts patient triage, ma
 
 ## 🚀 Features
 
-- 🎙️ Voice-based symptom triage with Gemini/GPT-4
-- 🧠 Symptom normalization and specialist mapping via LangGraph
-- 🧑‍⚕️ Doctor lookup from PostgreSQL using stored functions
-- 💳 Appointment booking through Razorpay
-- 💬 Conversational UI powered by React + JavaScript Speech APIs
+- Voice-based symptom triage with Gemini/GPT-4
+- Symptom normalization and specialist mapping via LangGraph
+- Doctor lookup from PostgreSQL using stored functions
+- Appointment booking through Razorpay
+- Conversational UI powered by React + JavaScript Speech APIs
 
 ---
 
