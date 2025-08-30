@@ -30,31 +30,53 @@ A full-stack voice-enabled AI medical assistant that conducts patient triage, ma
 ## 📁 Project Structure
 
 healthcare-ai-assistant/
-│
+
 ├── backend/ # FastAPI backend
+
 │ ├── main.py
+
 │ ├── agents/ # LangGraph agents
+
 │ ├── db/ # DB queries and connection
+
 │ ├── .env # Environment variables (not pushed)
+
 | |---.config.py
+
 | |---models.py
+
 ├── requirements.txt # Python dependencies
+
 │
 ├── frontend/ # React frontend--- here I have not created separate folder for frontend
+
 │ ├── components/
+
 │ ├── pages/
+
 │ └── .env.local # API keys and backend URL
+
 │
 ├── sql/ # PostgreSQL schema and stored functions
+
 │ ├── schema.sql
+
 │ └── functions/
+
 │ ├── create_login_function.sql
+
 │ ├── create_appointment_function.sql
+
 │ ├── get_patient_details.sql
+
 │ ├── get_doctors_by_specialist.sql
+
 │
+
 ├── .gitignore
+
 └── README.md
+
 
 
 ---
